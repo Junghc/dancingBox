@@ -348,7 +348,7 @@ function createMap(scene){
 	b77.material = materialBox1;
 	b82.material = materialBox1;
 	var materialBox2 = new BABYLON.StandardMaterial("texture11", scene);
-	materialBox2.diffuseTexture = new BABYLON.Texture("textures/t2.jpg", scene);
+	materialBox2.diffuseTexture = new BABYLON.Texture("textures/t2.JPG", scene);
 	b63.material = materialBox2;
 	b68.material = materialBox2;
 	b73.material = materialBox2;
