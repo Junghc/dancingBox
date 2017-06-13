@@ -44,7 +44,7 @@ function init(){
 	});
 	window.addEventListener("keydown", function (evt) {
 		// Press spacebar to change direction
-		if (evt.keyCode === 32 && gamestart == 1 && time<301) { 
+		if (evt.keyCode === 32 && gamestart == 1 && time<301 && gameisgg ==0) { 
 			clearInterval(move);
 
 		
@@ -125,9 +125,9 @@ function Move(Me,scene,direction){
 			scene.activeCamera.target.x-=0.3;
 			return scene;}
 	if(direction == 5){
-			Me.position.z+=0.3
+			Me.position.z+=0.3;
 			scene.activeCamera.target.z+=0.3;
-			scene.activeCamera.target.y+=0.1;
+			scene.activeCamera.target.y+=0.15;
 			return scene;}
 }
 
@@ -149,6 +149,8 @@ function clock(){
 }
 
 function gg(Me){
+	console.log(time);
+	console.log(Me.position);
 	gameisgg = 1;
 	if (fall==1){
 	fallsound=document.getElementById("fall");
