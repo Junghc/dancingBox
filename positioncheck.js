@@ -11,7 +11,7 @@ function check(Me,time){
 		if(Me.position.z<13||Me.position.z>15.3||Me.position.x<-5||Me.position.x>1)
 			gg(Me);}
 	if(time>19&&time<23){//3
-		if(Me.position.z<13||Me.position.z>20||Me.position.x<-5||Me.position.x>-3)
+		if(Me.position.z<13||Me.position.z>20||Me.position.x<-5.1||Me.position.x>-3)
 			gg(Me);}
 	if(time>24&&time<26){//4
 		if(Me.position.z<18||Me.position.z>20||Me.position.x<-9||Me.position.x>-3)
@@ -61,9 +61,7 @@ function check(Me,time){
 	if(time==115){//22
 		if(Me.position.z<49||Me.position.z>54||Me.position.x<-65||Me.position.x>-60)
 			gg(Me);}
-	if(time==117){//23
-		if(Me.position.z<49||Me.position.z>52||Me.position.x<-65||Me.position.x>-62)
-			gg(Me);}
+	
 	if(time==119){//24
 		if(Me.position.z<49||Me.position.z>53||Me.position.x<-67||Me.position.x>-62.8)
 			gg(Me);}
@@ -166,6 +164,3 @@ function check(Me,time){
 			gg(Me);}
 	
 }
-
-
-
